@@ -1,0 +1,5 @@
+.stfolder*
+.*.swp
+
+/Makefile
+/README.html
