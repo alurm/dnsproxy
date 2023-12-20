@@ -33,6 +33,9 @@ func readConfiguration() configuration {
 		}
 		defer file.Close()
 		bytes, err = io.ReadAll(file)
+		if err != nil {
+			log.Fatal(err)
+		}
 	}
 
 	err := json.Unmarshal(
