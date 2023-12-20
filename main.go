@@ -15,7 +15,6 @@ type configuration struct {
 }
 
 func readConfiguration() configuration {
-	var c configuration
 	var bytes []byte
 	{
 		executable, err := os.Executable()
@@ -38,6 +37,7 @@ func readConfiguration() configuration {
 		}
 	}
 
+	var c configuration
 	err := json.Unmarshal(
 		bytes,
 		&c,
@@ -45,6 +45,7 @@ func readConfiguration() configuration {
 	if err != nil {
 		log.Fatal(err)
 	}
+
 	return c
 }
 
