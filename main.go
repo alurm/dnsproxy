@@ -1,7 +1,7 @@
 /*
 Dnsproxy proxies a DNS and blocks excluded domains.
 
-If a request is made for a blocked domain, proxy returns "refused" response cod.e.
+If a request is made for a blocked domain, proxy returns "refused" response code.
 
 Configuration file for proxy is named configuration.json and must lie in the same real (not symbolically linked) directory as dnsproxy program.
 
