@@ -1,6 +1,6 @@
 .stfolder*
 .*.swp
 
-/Makefile
 /README.html
 /dnsproxy
+/configuration.json

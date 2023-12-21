@@ -3,5 +3,7 @@
 ,
 	"blocklist": [
 		"alurm.github.io"
+	,
+		"github.com"
 	]
 }
