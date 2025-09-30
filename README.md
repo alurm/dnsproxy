@@ -2,7 +2,7 @@
 
 ## About
 
-This is a simple DNS proxy accepting a blocklist made as a test task for a company.
+This is a simple DNS proxy accepting a blocklist.
 
 There are two programs: dnsproxy and extra-recursive-resolver.
 
